@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+.row:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+.wrapper {
+	background: #94CAD6;
+}
+
+.header {
+	background: #94A9D6;
+	height: 50px;
+
+	margin-bottom: 20px;
+	/*margin-top: 7px;*/
+}
+.inner-header {
+
+}
+.inner-header1 {
+	float: left;
+	width: 15%;
+}
+.inner-header2 {
+	float: left;
+	width: 70%;
+}
+
+.inner-header3 {
+	float: left;
+	width: 15%;
+}
+
+.sidebar {
+	width: 15%;
+	float: left;
+}
+.inner-sidebar {
+	background: #94A9D6;
+	min-height: 200px;
+	margin-right: 7px;
+
+}
+.content {
+	width: 85%;
+	float: left;
+}
+.inner-content {
+	background: #94CAD6;
+	min-height: 200px;
+
+}
+.footer {
+
+}
+.inner-footer {
+	background: #94CAD6;
+	height: 200px;
+	margin-top: 1px;	
+}
